@@ -28,7 +28,7 @@
             </div>
         </div>
 
-        <div id="container-lancamento" class="container mt-5 mb-5">
+        <div id="container-lancamento" class="container mb-containers mt-5">
             <div class="cl-text font-barlow pt-4">
                 UM LANÇAMENTO QUE CHEGOU
             </div>
@@ -42,6 +42,42 @@
                 atenção para as gôndolas, através do <strong>MPDV Digital</strong>. Uma solução de sinalização
                 exclusiva que só a gente pode oferecer no Brasil, destacando <strong>sua marca</strong> nas
                 gôndulas e <strong>aumentando sua performance na loja</strong>.
+            </div>
+        </div>
+
+        <div id="container-gondola" class="row no-gutters bg-gondola mb-containers">
+            <div id="container-mpdv-ciclo">
+                <div class="row no-gutters">
+                    <div id="mpdv-logo-ciclo" class="col-md-5">
+                        <img src="img/ciclo-logo-amarelo.jpg" alt="Logo Ciclo Comunicação" class="img-fluid" />
+                    </div>
+                    <div id="mpdv-col-2" class="col-md-7 text-center">
+                        <div id="mpdv-text-yellow" class="font-barlow-semi">
+                            SINALIZAÇÃO COM
+                        </div>
+                        <br />
+                        <div id="mpdv-text-2" class="font-barlow-bold">
+                            MOVIMENTO!
+                        </div>
+                        <br />
+                        <div id="mpdv-text-3" class="font-barlow-semi mt-1">
+                            <strong>Mpdv's digitais</strong> são displays e telas com movimento 
+                            programados para mostrar diferentes sequências de animação.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="container-produtos" class="row">
+                <div class="col-md-4">
+                    <img id="prod-img-canon-blast" src="img/prod-canon-blast.png" alt="Canon Blast" class="img-fluid" />
+                </div>
+                <div class="col-md-4">
+                    <img id="prod-img-vitamin-water" src="img/prod-vitamin-water.png" alt="Vitamin Water" class="img-fluid" />
+                </div>
+                <div class="col-md-4">
+                    <img id="prod-img-monster" src="img/prod-monster.png" alt="Monster Energy Drink" class="img-fluid" />
+                </div>
             </div>
         </div>
 
