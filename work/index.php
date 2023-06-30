@@ -177,10 +177,46 @@
             </div>
         </div>
 
-        <div id="container-clique-aqui" class="container font-barlow-semi text-center pb-5">
+        <div id="container-clique-aqui" class="container font-barlow-semi text-center mb-5">
             <input id="cca-button" type="button" value="CLIQUE AQUI" />
             <div id="cca-text-1" class="text-center font-barlow">
                 Vamos impactar e movimentar o ponto de vendas juntos!
+            </div>
+        </div>
+
+        <div id="container-footer-contact" class="container font-barlow">
+            <div class="row cfc-contact">
+                <div class="col-lg-3 offset-lg-1 col-md-4 offset-md-1 col-12">
+                    <img src="img/footer-icon-1.jpg" alt="Onde estamos" class="img-fluid" />
+
+                    <strong>Onde estamos:</strong>
+                    <br />
+                    R. Helena Steimberg, 1456
+                    <br />
+                    Nova Campinas, Campinas / SP
+                </div>
+                <div class="col-lg-4 col-md-4 col-12">
+                    <img src="img/footer-icon-2.jpg" alt="Email" class="img-fluid" />
+
+                    <strong>Email:</strong>
+                    <br />
+                    contato@ciclocomunicacao.com.br
+                    <br />
+                    anapaula@ciclocomunicacao.com.br
+                </div>
+                <div class="col-lg-3 col-md-3 col-12">
+                    <img src="img/footer-icon-3.jpg" alt="Telefone" class="img-fluid" />
+
+                    <strong>Telefone:</strong>
+                    <br />
+                    +55 (19) 3213.3871
+                </div>
+            </div>
+            <div class="grey-line"></div>
+            <div class="row mt-5">
+                <div class="col-12 text-center">
+                    <img src="img/footer-copyrights.jpg" class="img-fluid" />
+                </div>
             </div>
         </div>
 
