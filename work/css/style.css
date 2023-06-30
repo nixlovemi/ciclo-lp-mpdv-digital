@@ -79,11 +79,20 @@ html, body {
     width: 100%;
     height: 100%;
     margin: 0;
+    color: black;
 }
 
 .container {
     /* igual site Ciclo */
     max-width: 1206px;
+}
+
+.black-line {
+    margin-left: 20%;
+    width: 60%;
+    height: 3px;
+    background-color: black;
+    display: inline-block;
 }
 
 /* ------------------------- CUSTOM -------------------------- */
@@ -233,6 +242,33 @@ html, body {
     margin-right: 2%;
     margin-bottom: 29%;
 }
+
+#container-footer #cf-text-1 {
+    line-height: 1;
+    font-size: 2.5em;
+}
+
+#container-footer #cf-text-2 {
+    line-height: 1;
+    font-size: 3.5em;
+    color: white;
+}
+
+#container-footer #cf-text-3 {
+    line-height: 1;
+    font-size: 1.4em;
+}
+
+#container-footer #cf-text-4 {
+    line-height: 1;
+    font-size: 3.5em;
+}
+
+#container-footer #cf-text-5 {
+    line-height: 0.6;
+    font-size: 3.5em;
+    color: white;
+}
 /* ----------------------------------------------------------- */
 
 /* ------------------------- MEDIA QUERIES -------------------------- */
@@ -353,6 +389,35 @@ html, body {
 
     #container-bullets #cb-bullets div img {
         margin-bottom: 10%;
+    }
+
+    #container-footer #cf-text-1 {
+        font-size: 1.7em;
+    }
+
+    #container-footer #cf-text-3 {
+        font-size: 1.55em;
+      }
+
+    #container-footer #cf-text-4 {
+        font-size: 2.5em;
+    }
+
+    #container-footer #cf-text-5 {
+        font-size: 24vw;
+    }
+
+    #container-lancamento .cl-text,
+    #container-bullets #cb-title {
+        line-height: 0.9;
+    }
+
+    #container-bullets #cb-bullets div:nth-child(1),
+    #container-bullets #cb-bullets div:nth-child(2),
+    #container-bullets #cb-bullets div:nth-child(3),
+    #container-bullets #cb-bullets div:nth-child(4),
+    #container-bullets #cb-bullets div:nth-child(5) {
+        margin-bottom: 0.9em;
     }
 }
 

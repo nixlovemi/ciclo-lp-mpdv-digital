@@ -5,7 +5,6 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
         <title>MPDV Digital | Ciclo Comunicação Criativa</title>
         <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
-        <!--<link href="js/jquery-mosaic/jquery.mosaic.min.css" rel="stylesheet" />-->
         <link rel="stylesheet" type="text/css" href="css/style.css" />
     </head>
     <body>
@@ -131,23 +130,40 @@
                 <img class="img-fluid" src="img/mosaico-img-4.jpg" />
                 <img class="img-fluid" src="img/mosaico-img-5.jpg" />
             </div>
+        </div>
 
-            <!--
-            <div id="mosaic" class="mosaic">
-                <img src="img/mosaico-img-1.jpg" data-high-res-image-src="img/mosaico-img-1.jpg" />
-                <img src="img/mosaico-img-2.jpg" data-high-res-image-src="img/mosaico-img-2.jpg" />
-                <img src="img/mosaico-img-3.jpg" data-high-res-image-src="img/mosaico-img-3.jpg" />
-                <img src="img/mosaico-img-4.jpg" data-high-res-image-src="img/mosaico-img-4.jpg" />
-                <img src="img/mosaico-img-5.jpg" data-high-res-image-src="img/mosaico-img-5.jpg" />
-                <img src="img/mosaico-img-6.jpg" data-high-res-image-src="img/mosaico-img-6.jpg" />
-                <img src="img/mosaico-img-7.jpg" data-high-res-image-src="img/mosaico-img-7.jpg" />
+        <div id="container-footer" class="row no-gutters bg-yellow pt-5 pb-5">
+            <div class="container font-barlow">
+                <div id="cf-text-1" class="text-center">
+                    UM PRODUTO QUE SUPEROU AS EXPECTATIVAS
+                    <br />
+                    DE SEU LANÇAMENTO COM MÉDIA DE
+                </div>
+                <div id="cf-text-2" class="text-center font-barlow-bold">
+                    66% DE AUMENTO NAS VENDAS
+                </div>
+                <div id="cf-text-3" class="text-center mt-5 mb-5">
+                    Visto por <strong>75% mais consumidores</strong>, o MPDV digital é <strong>percebido 8x mais rápido</strong>
+                    <br />
+                    que sinalização estática. Testado e aprovado por redes de varejo de toda a
+                    <br />
+                    América Latina. Seja para campanhas institucionais, promoções, ativações,
+                    <br />
+                    gerenciamento de categoria ou demais ações.
+                </div>
+                <div class="black-line"></div>
+                <div id="cf-text-4" class="text-center mt-5 mb-3">
+                    <span style="font-weight: lighter;">GARANTA JÁ A PRESENÇA E A</span>
+                    <br />
+                    <span id="cf-text-5" class="font-hackney-vector">VISIBILIDADE</span>
+                    <br />
+                    QUE O <strong>SEU PRODUTO MERECE</strong>
+                </div>
             </div>
-            -->
         </div>
 
         <script type="text/javascript" src="js/jquery.js"></script>
         <script type="text/javascript" src="js/bootstrap.js"></script>
-        <!--<script src="js/jquery-mosaic/jquery.mosaic.min.js"></script>-->
         <script type="text/javascript" src="js/script.js"></script>
     </body>
 </html>
