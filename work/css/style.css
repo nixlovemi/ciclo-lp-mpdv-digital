@@ -80,6 +80,7 @@ html, body {
     height: 100%;
     margin: 0;
     color: black;
+    overflow-x: hidden; /* por causa de #container-footer #arte-footer-shelf */
 }
 
 .container {
@@ -243,6 +244,10 @@ html, body {
     margin-bottom: 29%;
 }
 
+#container-footer {
+    position: relative;
+}
+
 #container-footer #cf-text-1 {
     line-height: 1;
     font-size: 2.5em;
@@ -266,8 +271,30 @@ html, body {
 
 #container-footer #cf-text-5 {
     line-height: 0.6;
-    font-size: 3.5em;
+    font-size: 3em;
     color: white;
+}
+
+#container-footer #container-arte-footer {
+    display: block;
+}
+
+#container-footer #container-arte-footer-small {
+    display: none;
+}
+
+#container-footer #arte-footer-lady {
+    position: absolute;
+    left: -6.6vw;
+    bottom: -10.27vw;
+    width: 26vw;
+}
+
+#container-footer #arte-footer-shelf {
+    position: absolute;
+    right: -12.6vw;
+    bottom: -2.27vw;
+    width: 26vw;
 }
 /* ----------------------------------------------------------- */
 
@@ -275,6 +302,10 @@ html, body {
 @media (max-width: 1599.98px) {
     #arte-header {
         width: 34vw;
+    }
+
+    #container-footer #arte-footer-lady {
+        width: 31vw;
     }
 
     #container-gondola #container-mpdv-ciclo {
@@ -344,6 +375,14 @@ html, body {
     #container-bullets #cb-bullets {
         width: 56%;
         margin-left: 22%;
+    }
+
+    #container-footer #container-arte-footer {
+        display: none;
+    }
+    
+    #container-footer #container-arte-footer-small {
+        display: block;
     }
 }
 

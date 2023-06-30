@@ -160,7 +160,24 @@
                     QUE O <strong>SEU PRODUTO MERECE</strong>
                 </div>
             </div>
+
+            <div id="container-arte-footer">
+                <img id="arte-footer-lady" class="img-fluid" src="img/footer-lady.gif" />
+                <img id="arte-footer-shelf" class="img-fluid" src="img/footer-shelf.gif" />
+            </div>
+            <div id="container-arte-footer-small">
+                <div class="row">
+                    <div class="col-md-3 offset-md-3 col-5 offset-1">
+                        <img id="arte-footer-lady-small" class="img-fluid" src="img/footer-lady.gif" />
+                    </div>
+                    <div class="col-md-3 col-5">
+                        <img id="arte-footer-shelf-small" class="img-fluid" src="img/footer-shelf.gif" />
+                    </div>
+                </div>
+            </div>
         </div>
+
+        <div style="padding: 100px 0"></div>
 
         <script type="text/javascript" src="js/jquery.js"></script>
         <script type="text/javascript" src="js/bootstrap.js"></script>
