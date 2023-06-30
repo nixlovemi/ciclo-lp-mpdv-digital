@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
         <title>MPDV Digital | Ciclo Comunicação Criativa</title>
         <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+        <!--<link href="js/jquery-mosaic/jquery.mosaic.min.css" rel="stylesheet" />-->
         <link rel="stylesheet" type="text/css" href="css/style.css" />
     </head>
     <body>
@@ -114,8 +115,39 @@
             </div>
         </div>
 
+        <div class="row no-gutters bg-dots pt-4 pb-4">
+            <div class="col-sm-3 col-6 no-gutters">
+                <img class="img-fluid" src="img/mosaico-img-1.jpg" />
+                <img class="img-fluid" src="img/mosaico-img-7.jpg" />
+            </div>
+            <div class="col-sm-3 col-6 no-gutters">
+                <img class="img-fluid" src="img/mosaico-img-2.jpg" />
+                <img class="img-fluid" src="img/mosaico-img-6.jpg" />
+            </div>
+            <div class="col-sm-3 col-6 no-gutters">
+                <img class="img-fluid" src="img/mosaico-img-3.jpg" />
+            </div>
+            <div class="col-sm-3 col-6 no-gutters">
+                <img class="img-fluid" src="img/mosaico-img-4.jpg" />
+                <img class="img-fluid" src="img/mosaico-img-5.jpg" />
+            </div>
+
+            <!--
+            <div id="mosaic" class="mosaic">
+                <img src="img/mosaico-img-1.jpg" data-high-res-image-src="img/mosaico-img-1.jpg" />
+                <img src="img/mosaico-img-2.jpg" data-high-res-image-src="img/mosaico-img-2.jpg" />
+                <img src="img/mosaico-img-3.jpg" data-high-res-image-src="img/mosaico-img-3.jpg" />
+                <img src="img/mosaico-img-4.jpg" data-high-res-image-src="img/mosaico-img-4.jpg" />
+                <img src="img/mosaico-img-5.jpg" data-high-res-image-src="img/mosaico-img-5.jpg" />
+                <img src="img/mosaico-img-6.jpg" data-high-res-image-src="img/mosaico-img-6.jpg" />
+                <img src="img/mosaico-img-7.jpg" data-high-res-image-src="img/mosaico-img-7.jpg" />
+            </div>
+            -->
+        </div>
+
         <script type="text/javascript" src="js/jquery.js"></script>
         <script type="text/javascript" src="js/bootstrap.js"></script>
+        <!--<script src="js/jquery-mosaic/jquery.mosaic.min.js"></script>-->
         <script type="text/javascript" src="js/script.js"></script>
     </body>
 </html>

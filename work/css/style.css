@@ -98,6 +98,11 @@ html, body {
     background-size: contain;
 }
 
+.bg-dots {
+    background-image: url('../img/bg-dots.gif');
+    background-repeat: repeat;
+}
+
 .mb-containers {
     margin-bottom: 10rem;
 }
