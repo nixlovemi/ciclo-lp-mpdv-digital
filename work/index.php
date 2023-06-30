@@ -81,6 +81,39 @@
             </div>
         </div>
 
+        <div class="container" id="container-bullets">
+            <div id="cb-title" class="text-center font-barlow-bold">
+                TOTALMENTE PERSONALIZÁVEIS!
+            </div>
+
+            <div id="cb-bullets" class="row font-barlow-bold">
+                <div class="col-lg-4 col-sm-6">
+                    <img src="img/01-bullet.png" class="img-fluid" />
+                    DIFERENTES CORES, FORMATOS E TAMANHOS
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <img src="img/02-bullet.png" class="img-fluid" />
+                    OPERAÇÃO, INSTALAÇÃO E MANUTENÇÃO SIMPLES
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <img src="img/03-bullet.png" class="img-fluid" />
+                    FINOS, LEVES E DURÁVEIS
+                </div>
+                <div class="col-lg-4 col-sm-6 font-barlow">
+                    <img src="img/04-bullet.png" class="img-fluid" />
+                    <strong>ALIMENTADOS POR BATERIA</strong> (ATÉ 12 MESES DE DURAÇÃO E PODEM SER SUBSTITUÍDAS)
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <img src="img/05-bullet.png" class="img-fluid" />
+                    PODE SER UTILIZADO EM ÁREAS REFRIGERADAS DE ATÉ 4 GRAUS
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <img src="img/06-bullet.png" class="img-fluid" />
+                    NÃO REQUER CABOS E NEM PRECISA DE ENERGIA ELÉTRICA
+                </div>
+            </div>
+        </div>
+
         <script type="text/javascript" src="js/jquery.js"></script>
         <script type="text/javascript" src="js/bootstrap.js"></script>
         <script type="text/javascript" src="js/script.js"></script>
