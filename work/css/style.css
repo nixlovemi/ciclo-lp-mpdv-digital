@@ -246,6 +246,7 @@ html, body {
 
 #container-footer {
     position: relative;
+    padding-bottom: 6em;
 }
 
 #container-footer #cf-text-1 {
@@ -295,6 +296,24 @@ html, body {
     right: -12.6vw;
     bottom: -2.27vw;
     width: 26vw;
+}
+
+#container-clique-aqui #cca-button {
+    background-color: #444444;
+    color: white;
+    font-size: 3em;
+    border: none;
+    border-radius: 25px;
+    padding: 2px 40px;
+    position: relative;
+    top: -38px;
+}
+
+#container-clique-aqui #cca-text-1 {
+    color: black;
+    font-size: 1.6em;
+    font-weight: lighter;
+    line-height: 1;
 }
 /* ----------------------------------------------------------- */
 
@@ -473,5 +492,14 @@ html, body {
 
     #container-produtos div img {
         width: 75%;
+    }
+
+    #container-clique-aqui #cca-button {
+        font-size: 2em;
+        top: -26px;
+    }
+
+    #container-clique-aqui #cca-text-1 {
+        font-size: 1.4em;
     }
 }

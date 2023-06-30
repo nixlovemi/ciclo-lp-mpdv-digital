@@ -132,7 +132,7 @@
             </div>
         </div>
 
-        <div id="container-footer" class="row no-gutters bg-yellow pt-5 pb-5">
+        <div id="container-footer" class="row no-gutters bg-yellow pt-5">
             <div class="container font-barlow">
                 <div id="cf-text-1" class="text-center">
                     UM PRODUTO QUE SUPEROU AS EXPECTATIVAS
@@ -177,7 +177,12 @@
             </div>
         </div>
 
-        <div style="padding: 100px 0"></div>
+        <div id="container-clique-aqui" class="container font-barlow-semi text-center pb-5">
+            <input id="cca-button" type="button" value="CLIQUE AQUI" />
+            <div id="cca-text-1" class="text-center font-barlow">
+                Vamos impactar e movimentar o ponto de vendas juntos!
+            </div>
+        </div>
 
         <script type="text/javascript" src="js/jquery.js"></script>
         <script type="text/javascript" src="js/bootstrap.js"></script>
