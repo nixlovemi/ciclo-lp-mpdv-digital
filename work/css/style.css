@@ -165,48 +165,18 @@ html, body {
     margin-bottom: 4rem;
 }
 
-#container-gondola #container-mpdv-ciclo {
-    width: 40vw;
-    margin-left: 30vw;
-    margin-top: -6vw;
-    background-color: #ffe514;
-    border-radius: 25px;
-    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
-    padding: 10px;
-}
-
-#container-gondola #container-mpdv-ciclo .row div:nth-child(2) {
-    background: #2c3133;
-    border-radius: 25px;
-}
-
-#container-mpdv-ciclo #mpdv-col-2 {
-    line-height: 0.7;
-    padding: 2%;
-}
-
-#container-mpdv-ciclo #mpdv-text-yellow {
-    color: #f9e636;
-    font-size: 2.2em;
-    margin-top: 3%;
-}
-
-#container-mpdv-ciclo #mpdv-text-2 {
-    font-size: 3em;
-    -webkit-text-fill-color: transparent;
-    -webkit-text-stroke: 1px white;
-}
-
-#container-mpdv-ciclo #mpdv-text-3 {
-    color: white;
-    line-height: 1.2;
-    font-size: 1.1em;
+#container-gondola #cg-mpdv-gif {
+    position: relative;
+    top: -4vw;
 }
 
 #container-gondola #container-produtos {
     width: 60%;
     margin-left: 20%;
-    padding-top: 70px;
+}
+
+#container-gondola #container-mpdv {
+    margin-bottom: -2em;
 }
 
 #container-gondola #container-produtos img#prod-img-canon-blast {
@@ -382,6 +352,7 @@ html, body {
 
     #container-lancamento {
         text-align: center;
+        margin-bottom: 7em;
     }
 
     #container-lancamento #cl-descricao {
@@ -437,18 +408,11 @@ html, body {
 
     #container-produtos div {
         text-align: center;
+        margin-bottom: 2.5em;
     }
 
     #container-produtos div img {
         width: 50%;
-    }
-
-    #container-mpdv-ciclo #mpdv-logo-ciclo {
-        text-align: center;
-    }
-
-    #container-mpdv-ciclo #mpdv-logo-ciclo img {
-        width: 35%;
     }
 
     .mb-containers {
@@ -515,6 +479,10 @@ html, body {
         float: none;
         display: block;
         margin: auto;
+    }
+
+    #container-gondola #cg-mpdv-gif {
+        top: -8vw;
     }
 }
 
