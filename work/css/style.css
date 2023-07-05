@@ -288,6 +288,11 @@ html, body {
     top: -38px;
 }
 
+#container-clique-aqui #cca-button:hover {
+    text-decoration: none;
+    background-color: #555555;
+}
+
 #container-clique-aqui #cca-text-1 {
     color: black;
     font-size: 1.6em;
