@@ -1,9 +1,135 @@
+<?php
+// $lang = pb | en
+$lang = (isset($_REQUEST['lang']) && $_REQUEST['lang'] !== '') ? $_REQUEST['lang']: 'pb';
+$arrData = [
+    'title' => [
+        'pb' => 'MPDV Digital',
+        'en' => 'Digital MPDV',
+    ],
+
+    'headerImpact' => [
+        'pb' => 'CHEGOU A HORA DE IMPACTAR',
+        'en' => 'IT\'S TIME TO IMPACT',
+    ],
+    'headerImpact2' => [
+        'pb' => 'O PONTO DE VENDA COM O MPDV',
+        'en' => 'THE POINT OF SALE WITH DIGITAL',
+    ],
+    'headerImpact3' => [
+        'pb' => 'DIGITAL',
+        'en' => 'MPDV',
+    ],
+
+    'headerRelease' => [
+        'pb' => 'UM LANÇAMENTO QUE CHEGOU',
+        'en' => 'A NEW LAUNCH THAT HAS ARRIVED',
+    ],
+    'headerRelease2' => [
+        'pb' => 'PARA INOVAR O VAREJO BRASILEIRO!',
+        'en' => 'TO INNOVATE BRAZILIAN RETAIL!',
+    ],
+    'headerReleaseText' => [
+        'pb' => 'A <strong>Ciclo Comunicação Criativa</strong> encontrou um jeito de inovar a maneira de chamar
+            atenção para as gôndolas, através do <strong>MPDV Digital</strong>. Uma solução de sinalização
+            exclusiva que só a gente pode oferecer no Brasil, destacando <strong>sua marca</strong> nas
+            gôndulas e <strong>aumentando sua performance na loja</strong>.',
+        'en' => '<strong>Ciclo Comunicação Criativa</strong> has found a way to innovate the way of drawing attention to gondolas,
+            through MPDV Digital. An exclusive signage solution that only we can offer in Brazil,
+            highlighting your brand on the shelves and <strong>increasing your in-store performance</strong>.',
+    ],
+
+    'gifMpdvUrl' => [
+        'pb' => 'img/giff-mpdv-ciclo-.gif',
+        'en' => 'img/giff-mpdv-ciclo-en.gif',
+    ],
+
+    'bulletsTitle' => [
+        'pb' => 'TOTALMENTE PERSONALIZÁVEIS!',
+        'en' => 'FULLY CUSTOMIZABLE!',
+    ],
+    'bulletsColors' => [
+        'pb' => 'DIFERENTES CORES, FORMATOS E TAMANHOS',
+        'en' => 'DIFFERENT COLORS, SHAPES AND SIZES',
+    ],
+    'bulletsOperation' => [
+        'pb' => 'OPERAÇÃO, INSTALAÇÃO E MANUTENÇÃO SIMPLES',
+        'en' => 'SIMPLE OPERATION, INSTALLATION AND MAINTENANCE',
+    ],
+    'bulletsSlim' => [
+        'pb' => 'FINOS, LEVES E DURÁVEIS',
+        'en' => 'SLIM, LIGHTWEIGHT AND DURABLE',
+    ],
+    'bulletsBattery' => [
+        'pb' => '<strong>ALIMENTADOS POR BATERIA</strong> (ATÉ 12 MESES DE DURAÇÃO E PODEM SER SUBSTITUÍDAS)',
+        'en' => '<strong>BATTERY-POWERED</strong> (UP TO 12 MONTHS AND CAN BE REPLACED)',
+    ],
+    'bulletsRefrigerated' => [
+        'pb' => 'PODE SER UTILIZADO EM ÁREAS REFRIGERADAS DE ATÉ 4 GRAUS',
+        'en' => 'CAN BE USED IN REFRIGERATED AREAS UP TO 4 DEGREES',
+    ],
+    'bulletsCables' => [
+        'pb' => 'NÃO REQUER CABOS E NEM PRECISA DE ENERGIA ELÉTRICA',
+        'en' => 'DOES NOT REQUIRE CABLES OR ELECTRICITY',
+    ],
+
+    'footerInfo' => [
+        'pb' => 'UM PRODUTO QUE SUPEROU AS EXPECTATIVAS
+            <br />
+            DE SEU LANÇAMENTO COM MÉDIA DE',
+        'en' => 'A PRODUCT THAT EXCEEDED EXPECTATIONS
+            <br />
+            OF ITS LAUNCH WITH AN AVERAGE',
+    ],
+    'footerInfo2' => [
+        'pb' => '66% DE AUMENTO NAS VENDAS',
+        'en' => '66% INCREASE IN SALES',
+    ],
+    'footerInfo3' => [
+        'pb' => 'Visto por <strong>75% mais consumidores</strong>, o MPDV digital é <strong>percebido 8x mais rápido</strong>
+            <br />
+            que sinalização estática. Testado e aprovado por redes de varejo de toda a
+            <br />
+            América Latina. Seja para campanhas institucionais, promoções, ativações,
+            <br />
+            gerenciamento de categoria ou demais ações.',
+        'en' => 'Seen by <strong>75% more consumers</strong>, digital MPDV is <strong>perceived 8x faster</strong>
+            <br />
+            than static signage. Tested and approved by retail chains across Latin America.
+            <br />
+            Whether for institutional campaigns, promotions, activations,
+            <br />
+            category management or other actions.',
+    ],
+    'footerInfo4' => [
+        'pb' => '<span style="font-weight: lighter;">GARANTA JÁ A PRESENÇA E A</span>
+            <br />
+            <span id="cf-text-5" class="font-hackney-vector">VISIBILIDADE</span>
+            <br />
+            QUE O <strong>SEU PRODUTO MERECE</strong>',
+        'en' => '<span style="font-weight: lighter;">Get the presence and</span>
+            <br />
+            <span id="cf-text-5" class="font-hackney-vector">VISIBILITY</span>
+            <br />
+            <strong>YOUR PRODUCT DESERVES</strong>',
+    ],
+
+    'btnClickHere' => [
+        'pb' => 'CLIQUE AQUI',
+        'en' => 'CLICK HERE',
+    ],
+    'btnImpactText' => [
+        'pb' => 'Vamos impactar e movimentar o ponto de vendas juntos!',
+        'en' => 'Let\'s make an impact and move the point of sale together!',
+    ],
+];
+?>
+
 <!DOCTYPE html>
 <html lang="pt-BR">
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
-        <title>MPDV Digital | Ciclo Comunicação Criativa</title>
+        <title><?= $arrData['title'][$lang] ?? '' ?> | Ciclo Comunicação Criativa</title>
         <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
         <link rel="stylesheet" type="text/css" href="css/style.css" />
     </head>
@@ -12,15 +138,15 @@
             <div id="header-intro-container" class="col">
                 <div class="container pt-5">
                     <div class="header-intro-text font-barlow">
-                        CHEGOU A HORA DE IMPACTAR
+                        <?= $arrData['headerImpact'][$lang] ?? '' ?>
                     </div>
                     <br />
                     <div class="header-intro-text font-barlow-bold">
-                        O PONTO DE VENDA COM O MPDV
+                        <?= $arrData['headerImpact2'][$lang] ?? '' ?>
                     </div>
                     <br />
                     <div class="header-intro-text-digital text-white font-hackney-vector">
-                        DIGITAL
+                        <?= $arrData['headerImpact3'][$lang] ?? '' ?>
                     </div>
                 </div>
 
@@ -30,24 +156,21 @@
 
         <div id="container-lancamento" class="container mb-containers mt-5">
             <div class="cl-text font-barlow pt-4">
-                UM LANÇAMENTO QUE CHEGOU
+                <?= $arrData['headerRelease'][$lang] ?? '' ?>
             </div>
             <br />
             <div class="cl-text container-lancamento font-barlow-bold mb-3">
-                PARA INOVAR O VAREJO BRASILEIRO!
+                <?= $arrData['headerRelease2'][$lang] ?? '' ?>
             </div>
 
             <div id="cl-descricao" class="font-barlow-semi">
-                A <strong>Ciclo Comunicação Criativa</strong> encontrou um jeito de inovar a maneira de chamar
-                atenção para as gôndolas, através do <strong>MPDV Digital</strong>. Uma solução de sinalização
-                exclusiva que só a gente pode oferecer no Brasil, destacando <strong>sua marca</strong> nas
-                gôndulas e <strong>aumentando sua performance na loja</strong>.
+                <?= $arrData['headerReleaseText'][$lang] ?? '' ?>
             </div>
         </div>
 
         <div id="container-gondola" class="row no-gutters bg-gondola mb-containers">
             <div id="container-mpdv" class="container text-center">
-                <img id="cg-mpdv-gif" src="img/giff-mpdv-ciclo-.gif" alt="MPDV Ciclo" class="img-fluid">
+                <img id="cg-mpdv-gif" src="<?= $arrData['gifMpdvUrl'][$lang] ?? '' ?>" alt="MPDV Ciclo" class="img-fluid">
             </div>
 
             <div id="container-produtos" class="row">
@@ -65,33 +188,33 @@
 
         <div class="container" id="container-bullets">
             <div id="cb-title" class="text-center font-barlow-bold">
-                TOTALMENTE PERSONALIZÁVEIS!
+                <?= $arrData['bulletsTitle'][$lang] ?? '' ?>
             </div>
 
             <div id="cb-bullets" class="row font-barlow-bold">
                 <div class="col-lg-4 col-sm-6">
                     <img src="img/01-bullet.png" class="img-fluid" />
-                    DIFERENTES CORES, FORMATOS E TAMANHOS
+                    <?= $arrData['bulletsColors'][$lang] ?? '' ?>
                 </div>
                 <div class="col-lg-4 col-sm-6">
                     <img src="img/02-bullet.png" class="img-fluid" />
-                    OPERAÇÃO, INSTALAÇÃO E MANUTENÇÃO SIMPLES
+                    <?= $arrData['bulletsOperation'][$lang] ?? '' ?>
                 </div>
                 <div class="col-lg-4 col-sm-6">
                     <img src="img/03-bullet.png" class="img-fluid" />
-                    FINOS, LEVES E DURÁVEIS
+                    <?= $arrData['bulletsSlim'][$lang] ?? '' ?>
                 </div>
                 <div class="col-lg-4 col-sm-6 font-barlow">
                     <img src="img/04-bullet.png" class="img-fluid" />
-                    <strong>ALIMENTADOS POR BATERIA</strong> (ATÉ 12 MESES DE DURAÇÃO E PODEM SER SUBSTITUÍDAS)
+                    <?= $arrData['bulletsBattery'][$lang] ?? '' ?>
                 </div>
                 <div class="col-lg-4 col-sm-6">
                     <img src="img/05-bullet.png" class="img-fluid" />
-                    PODE SER UTILIZADO EM ÁREAS REFRIGERADAS DE ATÉ 4 GRAUS
+                    <?= $arrData['bulletsRefrigerated'][$lang] ?? '' ?>
                 </div>
                 <div class="col-lg-4 col-sm-6">
                     <img src="img/06-bullet.png" class="img-fluid" />
-                    NÃO REQUER CABOS E NEM PRECISA DE ENERGIA ELÉTRICA
+                    <?= $arrData['bulletsCables'][$lang] ?? '' ?>
                 </div>
             </div>
         </div>
@@ -117,29 +240,17 @@
         <div id="container-footer" class="row no-gutters bg-yellow pt-5">
             <div class="container font-barlow">
                 <div id="cf-text-1" class="text-center">
-                    UM PRODUTO QUE SUPEROU AS EXPECTATIVAS
-                    <br />
-                    DE SEU LANÇAMENTO COM MÉDIA DE
+                    <?= $arrData['footerInfo'][$lang] ?? '' ?>
                 </div>
                 <div id="cf-text-2" class="text-center font-barlow-bold">
-                    66% DE AUMENTO NAS VENDAS
+                    <?= $arrData['footerInfo2'][$lang] ?? '' ?>
                 </div>
                 <div id="cf-text-3" class="text-center mt-5 mb-5">
-                    Visto por <strong>75% mais consumidores</strong>, o MPDV digital é <strong>percebido 8x mais rápido</strong>
-                    <br />
-                    que sinalização estática. Testado e aprovado por redes de varejo de toda a
-                    <br />
-                    América Latina. Seja para campanhas institucionais, promoções, ativações,
-                    <br />
-                    gerenciamento de categoria ou demais ações.
+                    <?= $arrData['footerInfo3'][$lang] ?? '' ?>
                 </div>
                 <div class="black-line"></div>
                 <div id="cf-text-4" class="text-center mt-5 mb-3">
-                    <span style="font-weight: lighter;">GARANTA JÁ A PRESENÇA E A</span>
-                    <br />
-                    <span id="cf-text-5" class="font-hackney-vector">VISIBILIDADE</span>
-                    <br />
-                    QUE O <strong>SEU PRODUTO MERECE</strong>
+                    <?= $arrData['footerInfo4'][$lang] ?? '' ?>
                 </div>
             </div>
 
@@ -160,12 +271,16 @@
         </div>
 
         <div id="container-clique-aqui" class="container font-barlow-semi text-center mb-5">
-            <a id="cca-button" href="javascript:;" onClick="window.open('mailto:mpdvdigital@ciclocomunicacao.com.br?subject=Contato MPDV Digital')">CLIQUE AQUI</a>
+            <a id="cca-button" href="javascript:;" onClick="window.open('mailto:mpdvdigital@ciclocomunicacao.com.br?subject=Contato MPDV Digital')">
+                <?= $arrData['btnClickHere'][$lang] ?? '' ?>
+            </a>
             <div id="cca-text-1" class="text-center font-barlow">
-                Vamos impactar e movimentar o ponto de vendas juntos!
+                <?= $arrData['btnImpactText'][$lang] ?? '' ?>
             </div>
         </div>
 
+        <?php
+        /*
         <div id="container-footer-contact" class="container font-barlow">
             <div class="row cfc-contact">
                 <div class="col-lg-3 offset-lg-1 col-md-4 offset-md-1 col-12">
@@ -195,12 +310,9 @@
                 </div>
             </div>
             <div class="grey-line"></div>
-            <div class="row mt-5">
-                <div class="col-12 text-center">
-                    <img src="img/footer-copyrights.jpg" class="img-fluid" />
-                </div>
-            </div>
         </div>
+        */
+        ?>
 
         <script type="text/javascript" src="js/jquery.js"></script>
         <script type="text/javascript" src="js/bootstrap.js"></script>
